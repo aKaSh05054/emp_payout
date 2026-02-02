@@ -160,8 +160,10 @@ const LoginPage = ({ onLogin }) => {
       <div className="login-card">
         <div className="login-header">
           <div className="company-logo">
-            <i className="fas fa-briefcase"></i>
-            <span>Employee Portal</span>
+            <i className="fas fa-briefcase"> </i>
+            <span>
+              Employee Portal
+            </span> 
           </div>
           <h2>{step === 1 ? 'Employee Login' : 'OTP Verification'}</h2>
           <p className="login-subtitle">
